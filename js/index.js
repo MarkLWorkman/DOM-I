@@ -56,3 +56,8 @@ mainButton.textContent = 'Get Started';
 
 const mainImg = document.getElementById('cta-img');
 mainImg.setAttribute('src', siteContent['cta']['img-src']);
+
+document.getElementsByTagName('h4')[0].textContent = 'Features';
+document.getElementsByTagName('h4')[1].textContent = 'About';
+document.getElementsByTagName('p')[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+document.getElementsByTagName('p')[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';

@@ -49,7 +49,7 @@ document.querySelector('a:nth-of-type(5)').textContent = 'About';
 document.querySelector('a:nth-of-type(6)').textContent = 'Contact';
 
 const mainText = document.querySelector('h1');
-mainText.textContent = 'DOM IS AWESOME';
+mainText.innerHTML = 'DOM ' + '<br />' +  'IS ' + '<br />' +  'AWESOME';
 
 const mainButton = document.querySelector('button');
 mainButton.textContent = 'Get Started';
@@ -73,7 +73,7 @@ document.getElementsByTagName('p')[3].textContent = 'Product content elementum m
 document.getElementsByTagName('p')[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
 document.getElementsByTagName('h4')[5].textContent = 'Contact';
-document.getElementsByTagName('p')[5].textContent = '123 Way 456 Street Somewhere,USA';
+document.getElementsByTagName('p')[5].innerHTML = '123 Way 456 Street' + '<br />' + 'Somewhere,USA';
 document.getElementsByTagName('p')[6].textContent = '1 (888) 888-8888';
 document.getElementsByTagName('p')[7].textContent = 'sales@greatIdea.io';
 

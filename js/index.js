@@ -71,3 +71,10 @@ document.getElementsByTagName('h4')[4].textContent = 'Vision';
 document.getElementsByTagName('p')[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 document.getElementsByTagName('p')[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 document.getElementsByTagName('p')[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+document.getElementsByTagName('h4')[5].textContent = 'Contact';
+document.getElementsByTagName('p')[5].textContent = '123 Way 456 Street Somewhere,USA';
+document.getElementsByTagName('p')[6].textContent = '1 (888) 888-8888';
+document.getElementsByTagName('p')[7].textContent = 'sales@greatIdea.io';
+
+document.getElementsByTagName('p')[8].textContent = 'Copyright Great Idea! 2020';

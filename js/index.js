@@ -53,3 +53,6 @@ mainText.textContent = 'DOM IS AWESOME';
 
 const mainButton = document.querySelector('button');
 mainButton.textContent = 'Get Started';
+
+const mainImg = document.getElementById('cta-img');
+mainImg.setAttribute('src', siteContent['cta']['img-src']);

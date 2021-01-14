@@ -48,6 +48,22 @@ document.querySelector('a:nth-of-type(4)').textContent = 'Features';
 document.querySelector('a:nth-of-type(5)').textContent = 'About';
 document.querySelector('a:nth-of-type(6)').textContent = 'Contact';
 
+const newA1 = document.createElement('a');
+newA1.textContent = 'Test';
+document.querySelector('nav').appendChild(newA1);
+const newA2 = document.createElement('a');
+newA2.textContent = 'Another Test';
+document.querySelector('nav').appendChild(newA2);
+
+document.querySelector('a').style.color = 'green';
+document.querySelector('a:nth-of-type(2)').style.color = 'green';
+document.querySelector('a:nth-of-type(3)').style.color = 'green';
+document.querySelector('a:nth-of-type(4)').style.color = 'green';
+document.querySelector('a:nth-of-type(5)').style.color = 'green';
+document.querySelector('a:nth-of-type(6)').style.color = 'green';
+document.querySelector('a:nth-of-type(7)').style.color = 'green';
+document.querySelector('a:nth-of-type(8)').style.color = 'green';
+
 const mainText = document.querySelector('h1');
 mainText.innerHTML = 'DOM ' + '<br />' +  'IS ' + '<br />' +  'AWESOME';
 

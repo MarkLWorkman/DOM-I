@@ -93,4 +93,4 @@ document.getElementsByTagName('p')[5].innerHTML = '123 Way 456 Street' + '<br />
 document.getElementsByTagName('p')[6].textContent = '1 (888) 888-8888';
 document.getElementsByTagName('p')[7].textContent = 'sales@greatIdea.io';
 
-document.getElementsByTagName('p')[8].textContent = 'Copyright Great Idea! 2020';
+document.getElementsByTagName('p')[8].textContent = 'Copyright Great Idea! 2018';
